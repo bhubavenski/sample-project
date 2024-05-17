@@ -1,11 +1,8 @@
-import Card from "@/components/shared/Card";
-import Carousel from "@/components/shared/carousel/Carousel";
-import Image from "next/image";
+import Carousel from "@/components/shared/Carousel";
 
 export default function Home() {
+  
   return (
-    <>
-      <Carousel />
-    </>
+   <Carousel/>
   );
 }

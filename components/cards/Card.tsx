@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import Button from "./Button";
-import Progress from "./Progress";
+import Button from "../shared/Button";
+import Progress from "../shared/Progress";
 
-const Card = ({img}:any) => {
+const Card = ({ img }: any) => {
   return (
-    <div className="min-w-full min-h-full relative p-[20px] border-black border-2">
-      <div className=" flex flex-col justify-between h-full">
+    <div className="min-w-full min-h-full relative p-[20px]">
+      <div className="flex flex-col justify-between h-full">
         <Image
           src={`/images/${img}`}
           alt="Your Image Description"
@@ -18,7 +18,7 @@ const Card = ({img}:any) => {
           <Image src="/images/logo.png" alt="logo" width={64} height={11} />
         </div>
         <div className="flex flex-col gap-5">
-          <h3 className="text-[#F2F2F2] font-spartan text-lg leading-[120%] text-wrap">
+          <h3 className="text-[#F2F2F2] font-spartan text-lg leading-snug font-medium text-wrap">
             Unleash Your Data, Dominate Your Game: In-Depth Stats, Unrivalled
             Insights
           </h3>
