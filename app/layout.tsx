@@ -11,7 +11,7 @@ const inter = Inter({
 
 const spartan = League_Spartan({
   subsets: ["latin"],
-  weight: ["500"],
+  weight: ["100", "400", "500"],
   variable: "--font-spartan",
 });
 
@@ -29,7 +29,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} ${spartan.variable}`}>
         <Navbar />
-        <main className="flex flex-col gap-3">{children}</main>
+        <main className=" bg-[#030E1A] font-spartan-500 text-zinc-100">
+          {children}
+        </main>
       </body>
     </html>
   );

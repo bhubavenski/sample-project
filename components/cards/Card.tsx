@@ -18,7 +18,7 @@ const Card = ({ img }: any) => {
           <Image src="/images/logo.png" alt="logo" width={64} height={11} />
         </div>
         <div className="flex flex-col gap-5">
-          <h3 className="text-[#F2F2F2] font-spartan text-lg leading-snug font-medium text-wrap">
+          <h3 className="text-lg leading-snug font-medium text-wrap">
             Unleash Your Data, Dominate Your Game: In-Depth Stats, Unrivalled
             Insights
           </h3>

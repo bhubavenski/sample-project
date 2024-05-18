@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        spartan: ["var(--font-spartan-500)"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

@@ -4,7 +4,7 @@ import React from "react";
 const Button = () => {
   return (
     <button className="flex px-6 py-3 justify-center items-center gap-2 rounded-md bg-[#5653FF]">
-      <span className="font-spartan text-lg font-medium text-white">Get Started</span>
+      <span className="text-lg font-medium ">Get Started</span>
       <Image
         alt="Get started"
         src="/images/ArrowRight.png"

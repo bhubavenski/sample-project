@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="bg-gradiant-primary justify-between shadow flex items-center box-border px-5 py-3">
       <div className="flex gap-[18px]">
         <Image alt="logo" src="images/logo.svg" width={31} height={31} />
-        <span className="text-white">Gamer Stats</span>
+        <span className="text-zinc-100">Gamer Stats</span>
       </div>
       <Avatar className="w-[32px] h-[32px]">
         <AvatarImage src="https://github.com/shadcn.png"/>
