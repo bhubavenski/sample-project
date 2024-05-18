@@ -3,7 +3,7 @@ import React from "react";
 import Button from "../shared/Button";
 import Progress from "../shared/Progress";
 
-const Card = ({ img }: any) => {
+const Card = ({ img, progress1, progress2, progress3}: any) => {
   return (
     <div className="min-w-full min-h-full relative p-[20px]">
       <div className="flex flex-col justify-between h-full">
@@ -24,7 +24,7 @@ const Card = ({ img }: any) => {
           </h3>
           <div className="flex justify-between items-end">
             <Button />
-            <Progress />
+            <Progress progress1={progress1} progress2={progress2} progress3={progress3} />
           </div>
         </div>
       </div>

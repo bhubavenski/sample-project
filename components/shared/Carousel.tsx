@@ -4,9 +4,9 @@ import Card from "@/components/cards/Card";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 const images = [
-    { id: 1, img: "img1.png" },
-    { id: 2, img: "img2.png" },
-    { id: 3, img: "img3.png" },
+    { id: 1, img: "img1.png", progress1: '50px',  progress2: '0px', progress3: '0px',},
+    { id: 2, img: "img2.png", progress1: '0px',  progress2: '50px', progress3: '0px', },
+    { id: 3, img: "img3.png", progress1: '0px',  progress2: '00px', progress3: '50px', },
   ];
   
 
@@ -22,7 +22,7 @@ const Carousel = () => {
         >
           <div className="min-w-full min-h-[270px] flex whitespace-nowrapx">
             {images.map((item) => (
-              <Card img={item.img} key={item.img} />
+              <Card img={item.img} key={item.img} progress1={item.progress1} progress2={item.progress2} progress3={item.progress3}/>
             ))}
           </div>
         </div>
