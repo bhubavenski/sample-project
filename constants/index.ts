@@ -23,21 +23,34 @@ export const gameAds = [
 ];
 
 export const studioAds = [
-    {
-      id: 1,
-      img: "/images/epicgames.png",
-      text: "Epic Games",
-    },
-    {
-      id: 2,
-      img: "/images/steam.png",
-      text: "Steam",
-    },
-    {
-      id: 3,
-      img: "/images/ubisoft.png",
-      text: "Ubisoft",
-    },
-    
-  ];
-  
+  {
+    id: 1,
+    img: "/images/epicgames.png",
+    text: "Epic Games",
+  },
+  {
+    id: 2,
+    img: "/images/steam.png",
+    text: "Steam",
+  },
+  {
+    id: 3,
+    img: "/images/ubisoft.png",
+    text: "Ubisoft",
+  },
+  {
+    id: 4,
+    img: "/images/battle.png",
+    text: "Battle.net",
+  },
+  {
+    id: 5,
+    img: "/images/xbox.png",
+    text: "Xbox",
+  },
+  {
+    id: 6,
+    img: "/images/vector.png",
+    text: "Vector",
+  },
+];
