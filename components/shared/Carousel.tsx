@@ -12,7 +12,7 @@ const Carousel = () => {
       ]);
     
       return (
-        <div
+        <section
           className="max-w-[393px] overflow-hidden"
           ref={emblaRef}
         >
@@ -21,7 +21,7 @@ const Carousel = () => {
               <Card img={item.img} key={item.img} progress1={item.progress1} progress2={item.progress2} progress3={item.progress3}/>
             ))}
           </div>
-        </div>
+        </section>
       );
 }
 

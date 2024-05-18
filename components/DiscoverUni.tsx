@@ -3,14 +3,14 @@ import AutoSlider from "./shared/AutoSlider";
 
 const DiscoverUni = () => {
   return (
-    <div className="bg-gradiant-secondaary box-border px-5 py-6">
-      <div className="flex justify-between">
+    <section className="bg-gradiant-secondaary">
+      <div className="flex justify-between mx-5 my-6">
         <span className="">Discover gaming universe</span>
         <span className="underline">Learn more</span>
       </div>
 
       <AutoSlider/>
-    </div>
+    </section>
   );
 };
 

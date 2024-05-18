@@ -54,3 +54,26 @@ export const studioAds = [
     text: "Vector",
   },
 ];
+
+export const gameImgs = [
+  {
+    id: 1,
+    img: "bg-csgo.jpg",
+    text: "CsGo",
+  },
+  {
+    id: 2,
+    img: "bg-valorant.png",
+    text: "Valorant",
+  },
+  {
+    id: 3,
+    img: "bg-csgo.jpg",
+    text: "Mainecraft",
+  },
+  {
+    id: 4,
+    img: "bg-valorant.png",
+    text: "PH",
+  },
+];
