@@ -4,6 +4,8 @@ import Button from "../shared/Button";
 import Progress from "../shared/Progress";
 
 const Card = ({ img, progress1, progress2, progress3}: any) => {
+  console.log({progress1, progress2, progress3})
+
   return (
     <div className="min-w-full min-h-full relative p-[20px]">
       <div className="flex flex-col justify-between h-full">

@@ -29,7 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} ${spartan.variable}`}>
         <Navbar />
-        <main className=" bg-[#030E1A] font-spartan-500 text-zinc-100">
+        <main className=" bg-[#030E1A] font-spartan text-zinc-100">
           {children}
         </main>
       </body>
