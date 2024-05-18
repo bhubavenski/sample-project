@@ -23,6 +23,7 @@ export const gameAds = [
 ];
 
 export const studioAds = [
+ 
   {
     id: 1,
     img: "/images/epicgames.png",
@@ -56,24 +57,67 @@ export const studioAds = [
 ];
 
 export const gameImgs = [
+  // {
+  //   id: 1,
+  //   img: "bg-csgo.jpg",
+  //   text: "CsGo",
+  // },
+  // {
+  //   id: 2,
+  //   img: "bg-valorant.png",
+  //   text: "Valorant",
+  // },
+  // {
+  //   id: 3,
+  //   img: "bg-csgo.jpg",
+  //   text: "Mainecraft",
+  // },
+  // {
+  //   id: 4,
+  //   img: "bg-valorant.png",
+  //   text: "PH",
+  // },
   {
-    id: 1,
-    img: "bg-csgo.jpg",
-    text: "CsGo",
+    images: [
+      {
+        id: 1,
+        img: "bg-csgo.jpg",
+        text: "CsGo",
+      },
+      {
+        id: 2,
+        img: "bg-valorant.png",
+        text: "Valorant",
+      },
+    ],
   },
   {
-    id: 2,
-    img: "bg-valorant.png",
-    text: "Valorant",
-  },
-  {
-    id: 3,
-    img: "bg-csgo.jpg",
-    text: "Mainecraft",
-  },
-  {
-    id: 4,
-    img: "bg-valorant.png",
-    text: "PH",
+    images: [
+      {
+        id: 3,
+        img: "bg-csgo.jpg",
+        text: "Mainecraft",
+      },
+      {
+        id: 4,
+        img: "bg-valorant.png",
+        text: "PH",
+      },
+    ],
   },
 ];
+
+export const socialLinks = [
+  {
+    title: 'discord',
+    img: 'discord.png'
+  },
+  {
+    title: 'twiter',
+    img: 'twiter.png'
+  },
+  {
+    title: 'instagram',
+    img: 'instagram.png'
+  }
+]
