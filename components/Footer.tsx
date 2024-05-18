@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="one-more box-border flex flex-col gap-5 px-5 py-8">
+    <div className="bg-footer-gradiant box-border flex flex-col gap-5 px-5 py-8">
       <div className="flex justify-between ">
         <p>Privacy policy</p>
         <p>Support</p>

@@ -113,7 +113,7 @@
     backdrop-filter: blur(0.949999988079071px);
   }
 
-  .game-cardt {
+  .recomended-game-card {
     border-radius: 10px;
     background: linear-gradient(0deg, #000 -5.48%, rgba(0, 0, 0, 0) 100%);
     box-shadow:
@@ -121,12 +121,22 @@
       0px 0px 5px 0px rgba(151, 130, 120, 0.58) inset;
   }
 
-  .one-more {
+  .recomended-game-card-header {
+    border-radius: 0px 0px 10px 10px;
+    background: rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(0.949999988079071px);
+  }
+
+  .bg-footer-gradiant {
     background: radial-gradient(
         216.16% 191.25% at 7.53% 50%,
         rgba(100, 26, 175, 0.2) 0%,
         rgba(0, 0, 0, 0) 100%
       ),
       #0a1a2b;
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center
   }
 }
